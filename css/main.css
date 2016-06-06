@@ -21,50 +21,11 @@
 */
 
 
-
-/*  Fonts  */
-@font-face {
-    font-family: 'raleway-regular';
-    src: url('../fonts/raleway-regular.eot');
-    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-regular.woff') format('woff'),
-         url('../fonts/raleway-regular.ttf') format('truetype'),
-         url('../fonts/raleway-regular.svg#raleway-regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-semibold';
-    src: url('../fonts/raleway-semibold.eot');
-    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-semibold.woff') format('woff'),
-         url('../fonts/raleway-semibold.ttf') format('truetype'),
-         url('../fonts/raleway-semibold.svg#raleway-semibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-bold';
-    src: url('../fonts/raleway-bold.eot');
-    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-bold.woff') format('woff'),
-         url('../fonts/raleway-bold.ttf') format('truetype'),
-         url('../fonts/raleway-bold.svg#raleway-bold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
 /*  General CSS*/
 body{
     background: #fff;
-    font-family: 'raleway-regular';
+    font-family: 'Fira Sans';
+    font-weight: 400;
 }
 
 .wrapper{
@@ -73,7 +34,8 @@ body{
 
 h1, h2, h3, h4, h5 ,h6{
     color: #626262;
-    font-family: "raleway-regular", arial;
+    font-family: "Fira Sans", arial;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
@@ -154,9 +116,9 @@ h5, h6          { font-weight: bolder }
 }
 
 .caption h1{
-    font-family: "raleway-bold";
+    font-family: "Fira Sans";
+    font-weight: 700;
     font-size: 65px;
-    font-weight: bold; 
     margin-bottom: 30px;
 }
 
@@ -229,7 +191,8 @@ header nav ul li{
 
 header nav ul li a{
     text-decoration: none;  
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 14px;
 
     transition:all .2s linear;
@@ -283,7 +246,8 @@ header.dark nav ul li a:hover{
 .services ul li h2{
     color: #417abd;
     text-align: center;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 22px;
     font-weight: bold;
     margin: 0 0 20px 0;
@@ -291,11 +255,13 @@ header.dark nav ul li a:hover{
 
 .services ul li p{
    color: #838181;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 14px;
-    line-height: 28px; 
+    line-height: 24px; 
     margin-top: 20px;
     letter-spacing: .5px;
+    text-align: justify;
 }
 
 
@@ -325,7 +291,8 @@ header.dark nav ul li a:hover{
 
 .video h3{
     color: #fff;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 14px;
     font-weight: normal!important;
     margin: 20px 0 0 0;
@@ -349,18 +316,19 @@ header.dark nav ul li a:hover{
 
 .title h2{
     color: #616161;
-    font-family: "raleway-bold";
+    font-family: "Fira Sans";
+    font-weight: 700;
     font-size: 30px;
-    font-weight: bold;
     margin: 0 0 20px 0;
 }
 .testimonials .title h2, .worldview h2{color: #fff; margin: 40px 0;}
 
 .title h3{
     color: #9b9b9b;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-style: italic;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 0 20px 0;
     font-weight: normal!important;
 }
@@ -409,7 +377,8 @@ header.dark nav ul li a:hover{
 
 .testimonials ul li p{
     color: #838181;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: .5px;
@@ -444,14 +413,16 @@ header.dark nav ul li a:hover{
 
 .testimonials ul li .client .client_details h4{
     color: #fff;
-    font-family: "raleway-semibold";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 20px;
     margin: 20px 0 10px ;
 }
 
 .testimonials ul li .client .client_details h5{
     color: #689dd9;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 20px;
     margin: 0;
     font-weight: normal;
@@ -489,7 +460,7 @@ header.dark nav ul li a:hover{
     float: left;
     text-align: center;
     margin-bottom: 60px;
-    padding-left: 26px;
+    padding-left: 13px;
     padding-right: 13px;
 }
 .blog_posts ul li .media .date{
@@ -508,15 +479,16 @@ header.dark nav ul li a:hover{
 
 .blog_posts ul li .media .date .day{
     color: #fff;
-    font-family: "raleway-bold";
+    font-family: "Fira Sans";
+    font-weight: 700;
     font-size: 18px;
-    font-weight: bold;
 
 }
 
 .blog_posts ul li .media .date .month{
     color: #fff;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 12px;
 }
 
@@ -529,7 +501,8 @@ header.dark nav ul li a:hover{
 
 .blog_posts ul li h1{
     color: #999999;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 14px;
     font-style: italic;
     line-height: 26px;
@@ -559,7 +532,8 @@ footer .footer_logo{
 footer .rights p{
     float: left;
     color: #838181;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 13px;
     margin: 5px 0 0 0px; 
     text-align: center;
@@ -567,7 +541,8 @@ footer .rights p{
 
 footer .rights p a{
     color: #777;
-    font-family: "raleway-semibold";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
@@ -587,7 +562,8 @@ footer nav ul li{
 
 footer nav ul li a{
     color: #838181;
-    font-family: "raleway-regular";
+    font-family: "Fira Sans";
+    font-weight: 400;
     font-size: 13px;
     text-decoration: none;
 
@@ -613,7 +589,13 @@ footer nav ul li a:hover{
 .navbar-collapse.collapse.in {  background-color: rgba(0,0,0,0.8);  border-radius: 4px;  border: 1px solid #fff;margin-right: 15px;}
 #oneworldview {float: right;}
 .nav > li > a{padding: 15px 5px;}
-.navbar-default .navbar-nav > li > a{color: #fff; font-size: 14px; font-family: 'raleway-bold'; text-transform: uppercase;}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{color: #fff; text-decoration: underline;}
 
@@ -631,9 +613,14 @@ footer nav ul li a:hover{
 
 .navbar-nav>li {padding: 0 10px;}
 .extract {width: 770px;}
-.extract p {line-height: 26px; letter-spacing: 0.5px}
+.extract p {line-height: 24px; letter-spacing: 0.5px; text-align: justify;}
 .company p {font-size: 13px; color: #666666; line-height: 22px; }
-.company h1 {text-transform: uppercase; font-family: 'raleway-bold' !important; color: #666 !important; font-style: normal !important}
+.company h1 {
+    text-transform: uppercase;
+    font-family: 'Fira Sans' !important;
+    font-weight: 700;
+    color: #666 !important;
+    font-style: normal !important}
 @media (max-width: 960px ) {
 
     .caption h1 {font-size: 45px;}
@@ -645,9 +632,12 @@ footer nav ul li a:hover{
     .caption h1 {font-size: 20px;margin-bottom: 5px;}
     .caption p{font-size: 15px;}
     .carousel-caption{top: 30px;}
-     figcaption {width: 65%; margin: 0 18%;}
-     .testimonials ul li .client .client_details h4{ font-size:14px;}
-     .testimonials ul li .client .client_details h5{font-size: 14px;}
+    figcaption {
+        width: 65%;
+        margin: 0 18%;
+    }
+    .testimonials ul li .client .client_details h4{ font-size:14px;}
+    .testimonials ul li .client .client_details h5{font-size: 14px;}
 }
 
 
