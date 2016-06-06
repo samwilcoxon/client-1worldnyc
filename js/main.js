@@ -26,5 +26,9 @@ $(document).ready(function(){
 	);
 	wow.init();
 
+	$('ol.carousel-indicators li').each(function(index, el) {
+		el.setAttribute('data-slide-to', index);
+	});
+
 });
 
