@@ -222,12 +222,14 @@ header.dark nav ul li a:hover{
 /*    Services    */
 .services ul{
     margin-top: 40px;
+    text-align: center;
 }
 
 .services ul li{
     list-style: none;
-    display: block;
-    float: left;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
     text-align: left;
 }
 
@@ -364,12 +366,14 @@ header.dark nav ul li a:hover{
 .testimonials ul{
     margin-top: 30px;
     list-style: none;
+    text-align: center;
 }
 
 .testimonials ul li{
-    display: block;
-    float: left;
-    margin-bottom: 60px
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin-bottom: 60px;
 }
 
 
@@ -404,10 +408,10 @@ header.dark nav ul li a:hover{
 }
 
 .testimonials ul li .client img.avatar{
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -o-border-radius: 100px;
-    border-radius: 100px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
 }
 
 .testimonials ul li .client .client_details{
@@ -455,11 +459,13 @@ header.dark nav ul li a:hover{
 .blog_posts ul{
     list-style: none;
     margin-top: 30px;
+    text-align: center;
 }
 
 .blog_posts ul li{
-    display: block;
-    float: left;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
     text-align: center;
     margin-bottom: 60px;
     padding-left: 13px;
