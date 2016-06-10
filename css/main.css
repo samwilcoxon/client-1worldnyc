@@ -221,7 +221,7 @@ header.dark nav ul li a:hover{
 
 /*    Services    */
 .services ul{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .services ul li{
@@ -276,12 +276,14 @@ header.dark nav ul li a:hover{
     width: 100%;
     text-align: center;
     margin-top: 0px;
-    background: url(../img/footer.jpg) center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     height: 350px;
+    overflow: hidden;
+}
+.video img.onBottom {
+    position: absolute;
+    display: block;
+    height: 350px;
+    width: 100%;
 }
 .video hr{margin: 30px 0}
 
@@ -360,7 +362,7 @@ header.dark nav ul li a:hover{
 }
 
 .testimonials ul{
-    margin-top: 70px;
+    margin-top: 30px;
     list-style: none;
 }
 
@@ -452,7 +454,7 @@ header.dark nav ul li a:hover{
 
 .blog_posts ul{
     list-style: none;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .blog_posts ul li{
@@ -497,6 +499,8 @@ header.dark nav ul li a:hover{
     border: solid 1px #ccc;
     margin-bottom: 20px;
     height: 205px;
+    display: block;
+    overflow: hidden;
 }
 
 .blog_posts ul li h1{
@@ -581,9 +585,9 @@ footer nav ul li a:hover{
 
 /*responsive*/
 
-.navbar{margin-bottom: 0;position: absolute;z-index: 10; height: 80px; padding-top: 20px;}
+.navbar{margin-bottom: 0;position: absolute;z-index: 10; height: 80px; padding-top: 18px;}
 .navbar-brand {padding-top: 0; padding-left: 25px;}
-.navbar-toggle{margin-top: 22px;}
+.navbar-toggle{margin-top: 8px;}
 .navbar-default{background: #376092; border: 0;width: 100%;color: #FFF; border-radius: 0}
 .navbar-default .navbar-toggle{background-color: #fff;border:0;}
 .navbar-collapse.collapse.in {  background-color: rgba(0,0,0,0.8);  border-radius: 4px;  border: 1px solid #fff;margin-right: 15px;}
@@ -595,6 +599,7 @@ footer nav ul li a:hover{
     font-family: 'Fira Sans';
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.4px;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{color: #fff; text-decoration: underline;}
