@@ -412,6 +412,7 @@ header.dark nav ul li a:hover{
     -moz-border-radius: 100%;
     -o-border-radius: 100%;
     border-radius: 100%;
+    width: 190px;
 }
 
 .testimonials ul li .client .client_details{
@@ -453,7 +454,7 @@ header.dark nav ul li a:hover{
 .blog_posts{
     margin-top: 25px;
     padding-bottom: 50px;
-    padding-top: 115px;
+    padding-top: 140px;
 }
 
 .blog_posts ul{
